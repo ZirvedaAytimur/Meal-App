@@ -50,6 +50,7 @@ const MealsFavTabNavigator = createBottomTabNavigator({
         navigationOptions: {
             tabBarIcon: (tabInfo) => {
                 return (
+        
                     <Ionicons
                         name='ios-star'
                         size={25}
